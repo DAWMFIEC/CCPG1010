@@ -10,7 +10,7 @@
 ### 7. Servicios web
 ### 8. Manejo del estado
 
-## Recursos para tus sitios web
+## Recursos
 
 - Íconos
   - 'Black White Social Media' by youtube.com/AlfredoCreates. (2018). Iconfinder. Retrieved 3 October 2018, from https://www.iconfinder.com/iconsets/black-white-social-media

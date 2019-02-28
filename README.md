@@ -5,9 +5,9 @@
 ### 2. Estructura de un documento web
 ### 3. Estilo de un documento web
 
-    Para maquetar los elementos de una página web existen dos maneras modernas: [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) y [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+Para maquetar los elementos de una página web existen dos maneras modernas: [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) y [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
 
-    Mientras que las librerías, como [FlexboxGrid](http://flexboxgrid.com/) o [Bootstrap](https://getbootstrap.com/), permiten abstraerse de las reglas de estilo detalladas.
+Mientras que las librerías, como [FlexboxGrid](http://flexboxgrid.com/) o [Bootstrap](https://getbootstrap.com/), permiten abstraerse de las reglas de estilo detalladas.
 
 ### 4. Diseño web adaptable
 ### 5. Programación web en el cliente

@@ -11,11 +11,13 @@
 ### 8. Manejo del estado
 ### 9. Seguridad web
 
+## Indicaciones generales
+
 Existen algunos sitios especializados, como [A List Apart](https://alistapart.com/) [Mozilla Developer Network](https://developer.mozilla.org/es/), [CSS-Tricks](https://css-tricks.com/), [HTML5Doctor](http://html5doctor.com/), [HTML.com](https://html.com/), [W3Schools](https://www.w3schools.com/tags/default.asp), [Codepen](https://codepen.io/) y [Google Developers](https://developers.google.com/web/?hl=es) dado que tienen publicaciones interesantes, relacionadas con el desarrollo de aplicaciones web. 
 
 Para el control de versiones de las prácticas y los proyectos deberás utilizar un repositorio remoto para control de versiones, algunos sistemas de administración de repositorios remotos que podrías considerar: [GitHub](https://github.com/), [BitBucket](https://bitbucket.org/product) y [GitLab](https://about.gitlab.com/).
 
-En relación a las herramientas de edición, podrías considerar: [Sublime Text 3](https://www.sublimetext.com/3), [Notepad++](https://notepad-plus-plus.org/download/v7.5.8.html) y [Atom](https://www.rollapp.com/app/atom), incluso un editor más potente como el [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432). 
+En relación a las herramientas de edición, podrías considerar: [Sublime Text 3](https://www.sublimetext.com/3), [Notepad++](https://notepad-plus-plus.org/download/v7.5.8.html) y [Atom](https://www.rollapp.com/app/atom), incluso un editor más potente como el [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432). Sublime Text tiene una lista de plugins de soporte para el desarrollo web de [páginas estáticas](https://tutorialzine.com/2016/10/15-awesome-sublime-text-plugins-for-web-development)
 
 El proceso de diseño y maquetación conlleva la creación de mockups, entre las herramientas que podrías considerar para esto, tenemos: [Balsamiq](https://balsamiq.com/), [OneNote](https://support.office.com/en-us/article/use-wireframe-templates-to-design-websites-and-mobile-apps-2d54dc55-f5c4-49a2-85da-d649eb7fc281), [Mockplus](https://www.mockplus.com/?r=trista), [Wireframe](https://wireframe.cc/), [Moqups](https://moqups.com/), [Fluid](https://www.fluidui.com/), [SmartMockups](https://smartmockups.com/) y [otros](https://www.mockplus.com/blog/post/website-mockup) que puedes encontrar en línea.
 

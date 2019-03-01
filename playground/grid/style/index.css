@@ -1,0 +1,16 @@
+	.box {
+	background-color: #F7941F;
+	/*width: 50px;
+	height: 30px;*/
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.container {
+	display: grid;
+	/*grid-template-columns: 1fr 50px 1fr 1fr;*/
+	grid-template-columns: 25% 50px 25% 25%;
+}

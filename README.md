@@ -18,7 +18,7 @@ Mientras que las librerías, como [FlexboxGrid](http://flexboxgrid.com/) o [Boot
 
 ## Indicaciones generales
 
-Existen algunos sitios especializados, como [A List Apart](https://alistapart.com/) [Mozilla Developer Network](https://developer.mozilla.org/es/), [CSS-Tricks](https://css-tricks.com/), [HTML5Doctor](http://html5doctor.com/), [HTML.com](https://html.com/), [W3Schools](https://www.w3schools.com/tags/default.asp), [Codepen](https://codepen.io/) y [Google Developers](https://developers.google.com/web/?hl=es) dado que tienen publicaciones interesantes, relacionadas con el desarrollo de aplicaciones web. 
+Existen algunos sitios especializados, como [A List Apart](https://alistapart.com/), [Mozilla Developer Network](https://developer.mozilla.org/es/), [CSS-Tricks](https://css-tricks.com/), [HTML5Doctor](http://html5doctor.com/), [HTML.com](https://html.com/), [W3Schools](https://www.w3schools.com/tags/default.asp), [Codepen](https://codepen.io/) y [Google Developers](https://developers.google.com/web/?hl=es) dado que tienen publicaciones interesantes, relacionadas con el desarrollo de aplicaciones web. 
 
 Para el control de versiones de las prácticas y los proyectos deberás utilizar un repositorio remoto para control de versiones, algunos sistemas de administración de repositorios remotos que podrías considerar: [GitHub](https://github.com/), [BitBucket](https://bitbucket.org/product) y [GitLab](https://about.gitlab.com/).
 

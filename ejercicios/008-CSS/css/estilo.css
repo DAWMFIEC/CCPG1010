@@ -1,0 +1,21 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+	background-color: dodgerblue;
+	color: white;
+	text-align: left; 
+}
+
+ul, ol {
+  list-style: none;
+}
+
+ul#navbar {
+	background-color: #0844a4;
+}
+
+ul#navbar li a {
+	color: white;
+}

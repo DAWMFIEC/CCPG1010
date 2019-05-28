@@ -4,11 +4,6 @@
 ### 1. Introducción
 ### 2. Estructura de un documento web
 ### 3. Estilo de un documento web
-
-Para maquetar los elementos de una página web existen dos maneras modernas: [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) y [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
-
-Mientras que las librerías, como [FlexboxGrid](http://flexboxgrid.com/) o [Bootstrap](https://getbootstrap.com/), permiten abstraerse de las reglas de estilo detalladas.
-
 ### 4. Diseño web adaptable
 ### 5. Programación web en el cliente
 ### 6. Programación web en el servidor
@@ -25,6 +20,8 @@ Para el control de versiones de las prácticas y los proyectos deberás utilizar
 En relación a las herramientas de edición, podrías considerar: [Sublime Text 3](https://www.sublimetext.com/3), [Notepad++](https://notepad-plus-plus.org/download/v7.5.8.html) y [Atom](https://www.rollapp.com/app/atom), incluso un editor más potente como el [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432). Sublime Text tiene una lista de plugins de soporte para el desarrollo web de [páginas estáticas](https://tutorialzine.com/2016/10/15-awesome-sublime-text-plugins-for-web-development)
 
 El proceso de diseño y maquetación conlleva la creación de mockups, entre las herramientas que podrías considerar para esto, tenemos: [Balsamiq](https://balsamiq.com/), [OneNote](https://support.office.com/en-us/article/use-wireframe-templates-to-design-websites-and-mobile-apps-2d54dc55-f5c4-49a2-85da-d649eb7fc281), [Mockplus](https://www.mockplus.com/?r=trista), [Wireframe](https://wireframe.cc/), [Moqups](https://moqups.com/), [Fluid](https://www.fluidui.com/), [SmartMockups](https://smartmockups.com/) y [otros](https://www.mockplus.com/blog/post/website-mockup) que puedes encontrar en línea.
+
+Librerías y Frameworks, como [W3.CSS](https://www.w3schools.com/w3css/default.asp), [FlexboxGrid](http://flexboxgrid.com/) o [Bootstrap](https://getbootstrap.com/), permiten abstraerse de las reglas de estilo para maquetar prototipos de alto nivel.
 
 Mientras diseñas tu sitio web, puedes utilizar los inspectores de [Mozilla](https://developer.mozilla.org/es/docs/Tools/Page_Inspector) o [Chrome](https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2) para verificar la estructura semántica de las páginas. Y algunos cheatsheets de HTML/CSS/GIT en la carpeta [Recursos](Recursos), [Google Web Fonts](https://devhints.io/google-webfonts) y [Bootstrap](https://hackerthemes.com/bootstrap-cheatsheet/)
 

@@ -72,3 +72,7 @@ section.jumbotron {
     color: #FFF;
     cursor: pointer;
 }
+
+h5 {
+    cursor: pointer;
+}

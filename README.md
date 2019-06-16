@@ -4,7 +4,7 @@
 ### 1. Introducción
 ### [2. Estructura de un documento web](diapositivas/HTML.rar)
 ### [3. Estilo de un documento web](diapositivas/CSS.rar)
-### 4. Diseño web adaptable
+### [4. Diseño web adaptable](diapositivas/RWD.rar)
 ### 5. Programación web en el cliente
 ### 6. Programación web en el servidor
 ### 7. Servicios web

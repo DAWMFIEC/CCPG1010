@@ -29,7 +29,7 @@ function agregarBordesRedondeados() {
 	/* document.querySelector( ) */
 	
 
-	/* Agregua la clase rounded-lg */
+	/* Agrega la clase rounded-lg */
 	
 	
 }
@@ -71,14 +71,15 @@ function cambiarFooter() {
 	
 
 	/* Elimina la etiqueta footer */
+	/* nodoPadre.removeChild( nodoHijo ) */
 	
 
-	/* Crea un footer */
+	/* Crea un nodo con la etiqueta footer */
 	/* document.createElement( ) */
 	
 
 
-	/* Agrega el texto "COPYRIGHT © 2019. ALL RIGHTS RESERVED TO VECINOS." al footer */
+	/* Crea un nodo con texto "COPYRIGHT © 2019. ALL RIGHTS RESERVED TO VECINOS." */
 	/* document.createTextNode( ) */
 	
 

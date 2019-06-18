@@ -54,12 +54,19 @@ $(document).ready(function() {
 
     /* Enlazar con el evento click para filtar los vecinos de acuerdo a los criterios de búsqueda */
     /* $('#busqueda').val()  */
+
     $('button').click(function(){
+
+      var divs = $('.col-md-3');
+
+      divs.each(function() { $(this).show() });
+
       var textoBusqueda = $('#busqueda').val();
       if(textoBusqueda.length > 0) {
         var divs = $('.col-md-3');
 
         divs.each(function() {
+           
            var h5 = $(this).find('h5')
            
            if(h5.text().indexOf(textoBusqueda) >= 0) {
@@ -67,15 +74,6 @@ $(document).ready(function() {
            } else {
              $(this).hide()
            }
-
-           var small = $(this).find('small')
-           
-           if(small.text().indexOf(textoBusqueda) >= 0) {
-            $(this).show()
-           } else {
-             $(this).hide()
-           }
-
 
         })
 

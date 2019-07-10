@@ -1,5 +1,9 @@
 var ws;
 
+/*
+	Recibe el id, titulo y texto del anuncio a agregar al div#clasificados
+*/
+
 let plantilla = (id,titulo,texto) => {
 
 	if($("#"+id).length > 0 )
@@ -17,6 +21,11 @@ let plantilla = (id,titulo,texto) => {
 	$('#clasificados').append(card)
 }
 
+
+/*
+	Establece conexión con el servidor de websockets
+*/
+
 let conectar = () => {
 	
 	console.log("Conectado")
@@ -24,6 +33,10 @@ let conectar = () => {
 	var msg = {type: "connect"};
     ws.send(JSON.stringify(msg));
 }
+
+/*
+	Publicar un mensaje nuevo en el servidor de websockets
+*/
 
 let publicar = () => {
 
@@ -39,7 +52,11 @@ let publicar = () => {
     $('#texto').val('');
 }
 
-let mostrarClasificados = (evento) => {
+/*
+	Muestra los mensajes que envía el servidor de websockets
+*/
+
+let mensajes = (evento) => {
 
 	let respuesta = jQuery.parseJSON(evento.data);
 
@@ -48,23 +65,31 @@ let mostrarClasificados = (evento) => {
 	}
 }
 
-let creatWS = () => {
+/*
+	Crea el web socket y establece la conexión con el servidor de websockets
+
+*/
+
+let crearWS = () => {
 	if ("WebSocket" in window) {
 
         // Let us open a web socket
         ws = new WebSocket("ws://localhost:9001/entrada_cliente");
 
         ws.onopen = conectar;
-        ws.onmessage = mostrarClasificados;
+        ws.onmessage = mensajes;
 
     } else {
         alert("Su navegador no soporta WebSocket");
     }
 }
 
+/*
+	Al cargar la página inicia con la creación del web socket local
+*/
 
 $(window).ready(() => {
-	creatWS();
+	crearWS();
 
 	$('#publicar').click(function() {
         publicar();

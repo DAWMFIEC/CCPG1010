@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 #https://github.com/Pithikos/python-websocket-server
 import json
 import logging
@@ -11,15 +14,15 @@ clasificados = [
 	}
 ]
 
-# Called for every client connecting (after handshake)
+# Llamada por cada cliente que se conecta (después del handshake)
 def entrada_cliente(client, server):
 	print("El cliente con id: %d se ha conectado" % client['id'])
 
-# Called for every client disconnecting
+# Llamada por cada cliente que se desconecta
 def salida_cliente(client, server):
 	print("El cliente con id: %d se ha desconectado" % client['id'])
 
-# Called when a client sends a message
+# Llamada por cada cliente que envía un mensaje
 def mensajeria(client, server, message):
 
 	obj = json.loads(message)
@@ -47,6 +50,8 @@ def mensajeria(client, server, message):
 
 		json_data = json.dumps(clasificados)
 		server.send_message_to_all(json_data)
+
+#Configuración del servidor de web sockets
 
 PORT=9001
 server = WebsocketServer(PORT, host='127.0.0.1')

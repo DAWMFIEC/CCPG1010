@@ -1,0 +1,118 @@
+main section.jumbotron {
+    background-image: url('https://a1.r9cdn.net/rimg/dimg/c2/5b/15634e77-city-23911-1660fa96554.jpg?width=1200&height=630&crop=true&xhint=3710&yhint=1748');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+section.jumbotron>* {
+    filter: blur(0px);
+}
+
+.text-new {
+    color: black;
+}
+
+.bg-t80 {
+    background-color: white;
+    opacity: 0.5;
+}
+
+#icon-users {
+    padding-right: 0.2rem;
+}
+
+section.jumbotron {
+    padding: 8rem 2rem;
+}
+
+@media (min-width: 576px) {
+
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+}
+
+.circle-icon {
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    background-color: #FFF;
+    color: #17a2b8;
+    font-size: 48px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+@media (max-width:992px) {
+    .circle-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 28px;
+        line-height: 50px;
+    }
+}
+
+.ui-steps li:hover .circle-icon {
+    background-image: -moz-linear-gradient(122deg, #17a2b8 0%, #085b66 100%);
+    background-image: -webkit-linear-gradient(122deg, #17a2b8 0%, #085b66 100%);
+    background-image: -ms-linear-gradient(122deg, #17a2b8 0%, #085b66 100%);
+    background-image: linear-gradient(122deg, #17a2b8 0%, #085b66 100%);
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+#mapid {
+    height: 400px;
+}
+
+h5 {
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 768px) {
+    #banner {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 66px;
+        bottom: 0;
+        left: 0;
+        background-color: #a3e4a7;
+        opacity: 1;
+        transition: all .3s linear;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #banner { 
+        display: none;
+    }
+}
+
+#close {
+    cursor: pointer;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Vecinos">
+    <meta name="author" content="None">
+    <link rel="icon" href="ico/people.png">
+    <title>Vecinos</title>
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info shadow-sm fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><i id="icon-users" class="fas fa-users"></i>Vecinos</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Principal <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vecinos.html">Vecinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="barrios.html">Barrios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clasificados.html">Clasificados</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading text-new">Vecinos</h1>
+                <p id="descripcion" class="bg-t80 lead text-new px-2 py-2">Vecinos te permite conocer mejor a tus vecinos, a
+                    planear reuniones, administrar las decisiones de
+                    las directivas, a conocer las necesidades de tu
+                    barrio o sector, a conocer los números de emergencias
+                    y mucho más. Somos para estar más unidos.</p>
+            </div>
+        </section>
+        <section class="album py-4 bg-light">
+            <div class="container">
+                <div class="row pb-3 px-3">
+                    <h2>Clasificados</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <form onsubmit="return false;">
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Título</label>
+                                <input type="text" class="form-control" id="titulo">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Texto</label>
+                                <textarea class="form-control" id="texto" rows="3"></textarea>
+                            </div>
+                            <button id="publicar" type="submit" class="btn btn-primary">Publicar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-9">
+                        <div id="clasificados" class="card-columns">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-2 text-center bg-light">
+        COPYRIGHT © 2019. ALL RIGHTS RESERVED TO VECINOS.
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <script src="js/clasificados.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+Flask-Tutorial
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
+Flask-Admin
+https://flask-admin.readthedocs.io/en/latest/introduction/#getting-started
+
+Flask Admin Dashboard
+https://github.com/jonalxh/Flask-Admin-Dashboard
+
+Default Values
+https://dzone.com/articles/how-to-initialize-database-with-default-values-in
+
+Seeder
+https://pypi.org/project/Flask-Seeder/
+
+
+
+Otros
+https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
+
+https://linuxhandbook.com/execute-shell-command-python/
+
+https://flask.palletsprojects.com/en/1.0.x/cli/

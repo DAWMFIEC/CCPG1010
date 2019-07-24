@@ -1,0 +1,51 @@
+<main role="main">
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading text-new">Vecinos</h1>
+      <p id="descripcion" class="bg-t80 lead text-new px-2 py-2">Vecinos te permite conocer mejor a tus vecinos, a
+        planear reuniones, administrar las decisiones de
+        las directivas, a conocer las necesidades de tu
+        barrio o sector, a conocer los números de emergencias
+        y mucho más. Somos para estar más unidos.</p>
+    </div>
+  </section>
+  <section class="album py-4 bg-light">
+    <div class="container">
+      <div class="row justify-content-center pt-2 pb-4">
+        <div class="col-12 col-md-10 col-lg-8">
+          <form class="card card-sm">
+            <div class="card-body row no-gutters align-items-center">
+              <!--end of col-->
+              <div class="col">
+                <input id="busqueda" class="form-control form-control-lg form-control-borderless" type="search" placeholder="Buscar vecinos">
+              </div>
+              <!--end of col-->
+              <div class="col-auto pl-2">
+                <button class="btn btn-lg btn-success" type="submit">Buscar</button>
+              </div>
+              <!--end of col-->
+            </div>
+          </form>
+        </div>
+        <!--end of col-->
+      </div>
+      <div id="resultadosVecinos" class="row" *ngIf="_vecinos.length > 0">
+        <!-- Estructura basica a replicar -->
+        
+        <div id="numero" class="col-md-3" *ngFor='let vecino of _vecinos'>
+          <div class="card mb-4 shadow-sm border-top-0 border-right-0 border-bottom-0 border-info">
+            <img class="card-img-top" src="https://making-the-web.com/sites/default/files/clipart/138985/person-icon-138985-5519992.svg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{vecino.NOMBRES}} {{vecino.APELLIDOS}}</h5>
+              <p class="card-text">{{vecino.FAMILIA}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">{{vecino.BARRIO}}</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

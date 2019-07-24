@@ -1,0 +1,68 @@
+<main role="main">
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading text-new">Vecinos</h1>
+                <p id="descripcion" class="bg-t80 lead text-new px-2 py-2">Vecinos te permite conocer mejor a tus vecinos, a
+                    planear reuniones, administrar las decisiones de
+                    las directivas, a conocer las necesidades de tu
+                    barrio o sector, a conocer los números de emergencias
+                    y mucho más. Somos para estar más unidos.</p>
+            </div>
+        </section>
+        <section class="album py-4 bg-light">
+            <div class="container">
+                <div class="row pb-3 px-3">
+                    <h2>Barrios</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm border-top-0 border-right-0 border-bottom-0 border-info">
+                            <img class="card-img-top" data-src="" src="https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2012/08/20/gg05ub200812-photo05_456_336.jpg?itok=_8KVte9u" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" (click)="move(0)">Sauces 8</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm border-top-0 border-right-0 border-bottom-0 border-info">
+                            <img class="card-img-top" data-src="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk4Tamkp0PUxMIx__y1CR2dSOxeIEx_zmQcXv_sDu5hRe7OdPp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" (click)="move(1)">La Saiba</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm border-top-0 border-right-0 border-bottom-0 border-info">
+                            <img class="card-img-top" data-src="" src="https://www.eltiempo.com.ec/media/k2/items/cache/00839d0099d754a6fb274d35626acdd1_M.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" (click)="move(2)">Primavera 2</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="steps" class="album py-4 bg-light">
+            <div class="container">
+              <div style="height: 300px;"
+                  leaflet 
+                  [leafletOptions]="options"
+                  [(leafletCenter)]="center"
+                  [(leafletZoom)]="zoom">
+                  <div *ngIf="showLayer" [leafletLayer]="layer"></div>
+              </div>
+            </div>
+        </section>
+    </main>

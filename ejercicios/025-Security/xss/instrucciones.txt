@@ -1,0 +1,19 @@
+* Instalar flask
+
+pip install flask
+
+* Lanzar el servidor
+
+python -m flask run
+o
+python main.py
+
+* Abrir el navegador en el URL que aparece en el cmd
+
+http://127.0.0.1:5000/
+
+* Ingresar como texto del tweet
+
+" onload=alert(1)
+javascript:alert(1);
+<script>alert(1)</script>

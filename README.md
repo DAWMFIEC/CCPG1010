@@ -7,9 +7,8 @@
 ### [4. Diseño web adaptable](diapositivas/RWD.rar)
 ### [5. Programación web en el cliente](diapositivas/JS.rar)
 ### [6. Programación web en el servidor](diapositivas/PWS.rar)
-### 7. Servicios web
+### [7. Servicios web](diapositivas/WS.rar)
 ### 8. Manejo del estado
-### 9. Seguridad web
 
 ## Indicaciones generales
 

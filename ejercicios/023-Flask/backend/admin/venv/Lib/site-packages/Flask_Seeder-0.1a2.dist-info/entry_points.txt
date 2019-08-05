@@ -1,0 +1,3 @@
+[flask.commands]
+seed = flask_seeder.cli:seed
+

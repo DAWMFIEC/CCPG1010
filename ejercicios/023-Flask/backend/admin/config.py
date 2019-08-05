@@ -26,3 +26,14 @@ class Config(object):
 	SECURITY_REGISTERABLE = True
 	SECURITY_SEND_REGISTER_EMAIL = False
 	SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+
+	MONGODB_DB = "vecinos"
+	MONGODB_HOST = "localhost"
+	MONGODB_PORT = 27017
+
+	# MONGODB_DB = "vecinos"
+	# MONGODB_HOST = "ds255857.mlab.com"
+	# MONGODB_PORT = 55857
+	# MONGODB_USERNAME = "admin"
+	# MONGODB_PASSWORD = "adminadmin1"

@@ -3,9 +3,10 @@ https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
 Flask-Admin
 https://flask-admin.readthedocs.io/en/latest/introduction/#getting-started
+KEY: https://github.com/flask-admin/flask-admin/tree/master/examples
 
 Flask Admin Dashboard
-https://github.com/jonalxh/Flask-Admin-Dashboard
+KEY: https://github.com/jonalxh/Flask-Admin-Dashboard
 
 Default Values
 https://dzone.com/articles/how-to-initialize-database-with-default-values-in

@@ -1,5 +1,6 @@
-from app import db, app
+from app import db, dbNoSQL, app
 from app.models import User, Role
+from app.documents import Anuncio
 
 from flask import url_for
 from flask_sqlalchemy import SQLAlchemy
@@ -7,7 +8,7 @@ from flask_security import Security, SQLAlchemyUserDatastore, \
     UserMixin, RoleMixin, login_required, current_user
 from flask_security.utils import encrypt_password
 import flask_admin
-from flask_admin.contrib import sqla
+from flask_admin.contrib import sqla, mongoengine
 from flask_admin import helpers as admin_helpers
 from flask_admin import BaseView, expose
 
@@ -56,6 +57,10 @@ class UserView(MyModelView):
     column_details_exclude_list = column_exclude_list
     column_filters = column_editable_list
 
+class AnuncioModelView(mongoengine.ModelView):
+    column_filters = ['nombre']
+    column_searchable_list = ('nombre', 'apellido', 'barrio','titulo_anuncio','texto_anuncio')
+
 
 class CustomView(BaseView):
     @expose('/')
@@ -74,7 +79,10 @@ admin = flask_admin.Admin(
 # Add model views
 admin.add_view(MyModelView(Role, db.session, menu_icon_type='fa', menu_icon_value='fa-server', name="Roles"))
 admin.add_view(UserView(User, db.session, menu_icon_type='fa', menu_icon_value='fa-users', name="Users"))
-admin.add_view(CustomView(name="Custom view", endpoint='custom', menu_icon_type='fa', menu_icon_value='fa-connectdevelop',))
+admin.add_view(AnuncioModelView(model=Anuncio, name="Anuncios", category=None, 
+               endpoint="/anuncios", url=None, static_folder=None,
+                menu_class_name="anuncios", menu_icon_type='fa', menu_icon_value='fa-bullhorn' ))
+#admin.add_view(CustomView(name="Custom view", endpoint='custom', menu_icon_type='fa', menu_icon_value='fa-connectdevelop',))
 
 # define a context processor for merging flask-admin's template context into the
 # flask-security views.

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Todos Mis Servicios - TMS</title>
+		<!-- Bootstrap core CSS -->
+		<link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="{{ url_for('static', filename='round-about.css') }}" rel="stylesheet">
+		<link href="{{ url_for('static', filename='input.css')}}" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			
+			<div class="row" id="pwd-container">
+				<div class="col-md-4"></div>
+				
+				<div class="col-md-4">
+					<section class="login-form">
+						<form method="post" action="/validar_registro" role="login">
+							<h2>Ingreso</h2>
+							<input type="text" name="user" placeholder="Usuario" required="" class="form-control input-lg" />
+							
+							<input type="password" class="form-control input-lg" id="contrasena" name="password" placeholder="Contraseña" required="" />
+							
+							
+							<div class="pwstrength_viewport_progress"></div>
+							
+							
+							<button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Ingresar</button>
+							
+						</form>
+					</section>
+				</div>
+				
+				<div class="col-md-4"></div>
+				
+			</div>
+			
+		</div>
+		<!-- /.container -->
+		<!-- Footer -->
+		<footer class="py-3 bg-dark fixed-bottom">
+			<div class="container">
+				<p class="m-0 text-center text-white">Copyright &copy; TMS 2018</p>
+			</div>
+			<!-- /.container -->
+		</footer>
+		<!-- Bootstrap core JavaScript -->
+		<script src="{{ url_for('static', filename='jquery/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+	</body>
+</html>

@@ -14,5 +14,5 @@ notas/*.xlsx
 notas/*.xls
 asistencia/*.xlsx
 asistencia/*.xls
-*.ppt
-*.pptx
+*/*.ppt
+*/*.pptx

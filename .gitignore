@@ -10,3 +10,7 @@ env/
 playground/
 notas/
 asistencia/
+notas/*.xlsx
+notas/*.xls
+asistencia/*.xlsx
+asistencia/*.xls

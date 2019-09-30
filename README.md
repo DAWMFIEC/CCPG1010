@@ -8,7 +8,7 @@
 ### [5. Programación web en el cliente](diapositivas/JS.rar)
 ### [6. Programación web en el servidor](diapositivas/PWS.rar)
 ### [7. Servicios web](diapositivas/WS.rar)
-### 8. Manejo del estado
+### [8. Manejo del estado](diapositivas/ESTADO.rar)
 
 ## Indicaciones generales
 

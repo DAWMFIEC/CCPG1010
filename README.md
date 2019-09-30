@@ -1,4 +1,4 @@
-# [Desarrollo de Aplicaciones Web 2019 - 1T](https://dawfiec.github.io/2019-1T/)
+# [Desarrollo de Aplicaciones Web](https://github.com/DAWFIEC/CCPG1010)
 
 ## Unidades
 ### 1. Introducción

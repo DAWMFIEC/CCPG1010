@@ -110,6 +110,7 @@ p.seccion {
     text-align: center;
 }
 
+
 p.seccion:hover {
 	cursor: pointer;
 }
@@ -173,3 +174,4 @@ body footer p {
 body footer {
 	background-color: #a38016;
 }
+

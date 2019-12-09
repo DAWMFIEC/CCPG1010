@@ -1,0 +1,23 @@
+
+* Lanzar el servidor del banco y del atacante
+
+banco> python main.py
+atacante> python main.py
+
+* Abrir el navegador en el URL del banco
+
+http://127.0.0.1:5000/
+
+* Ingresar la cuenta y la cantidad a debitar
+
+cuenta: 123123
+cantidad: 200
+
+
+* Por consola del navegador, agregar el siguiente código JS
+
+let link = document.createElement('a')
+link.text= " ver promociones"
+link.href= "http://127.0.0.1:5001/ "
+document.getElementsByTagName('h2')[0].appendChild(link)
+

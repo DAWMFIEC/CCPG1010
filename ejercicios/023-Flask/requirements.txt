@@ -1,6 +1,0 @@
-Flask
-pymongo
-bson
-gunicorn
-flask-cors
-dicttoxml

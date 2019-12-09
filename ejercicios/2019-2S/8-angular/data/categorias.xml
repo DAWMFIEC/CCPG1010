@@ -1,0 +1,78 @@
+<categorias>
+	<categoria>
+		<nombre>Geografía</nombre>
+		<codigo>GEO</codigo>
+		<openlibra>https://openlibra.com/es/collection/search/category/geografia</openlibra>
+		<libros>
+			<libro>
+				<nombre>Análisis Espacial con R: Usa R como un sistema de información geográfica</nombre>
+				<openlibra>https://openlibra.com/es/book/analisis-espacial-con-r-usa-r-como-un-sistema-de-informacion-geografica</openlibra>
+			</libro>
+      <libro>
+				<nombre>Mapping and the Citizen Sensor</nombre>
+				<openlibra>https://openlibra.com/es/book/mapping-and-the-citizen-sensor</openlibra>
+			</libro>
+      <libro>
+				<nombre>Naturaleza, ecología y salud</nombre>
+				<openlibra>https://openlibra.com/es/book/naturaleza-ecologia-y-salud</openlibra>
+			</libro>
+		</libros>
+	</categoria>
+  <categoria>
+		<nombre>Ciencia</nombre>
+		<codigo>CIE</codigo>
+		<openlibra>https://openlibra.com/es/collection/search/category/biologia</openlibra>
+		<libros>
+			<libro>
+				<nombre>The Origin and Evolution of the Genetic Code</nombre>
+				<openlibra>https://openlibra.com/es/book/the-origin-and-evolution-of-the-genetic-code</openlibra>
+			</libro>
+      <libro>
+				<nombre>Deep Brain Stimulation (DBS) Applications</nombre>
+				<openlibra>https://openlibra.com/es/book/deep-brain-stimulation-dbs-applications</openlibra>
+			</libro>
+      <libro>
+				<nombre>Introduction to Human Osteology</nombre>
+				<openlibra>https://openlibra.com/es/book/introduction-to-human-osteology</openlibra>
+			</libro>
+		</libros>
+	</categoria>
+  <categoria>
+		<nombre>Arte</nombre>
+		<codigo>ART</codigo>
+		<openlibra>https://openlibra.com/es/collection/search/category/arte-bellas-artes</openlibra>
+		<libros>
+			<libro>
+				<nombre>Variant Analyses: Interrogations of New Media Art and Culture</nombre>
+				<openlibra>https://openlibra.com/es/book/variant-analyses-interrogations-of-new-media-art-and-culture</openlibra>
+			</libro>
+      <libro>
+				<nombre>Graphic Design and Print Production Fundamentals</nombre>
+				<openlibra>https://openlibra.com/es/book/graphic-design-and-print-production-fundamentals</openlibra>
+			</libro>
+      <libro>
+				<nombre>Urban Screens Reader</nombre>
+				<openlibra>https://openlibra.com/es/book/urban-screens-reader</openlibra>
+			</libro>
+		</libros>
+	</categoria>
+  <categoria>
+		<nombre>Juego</nombre>
+		<codigo>JUE</codigo>
+		<openlibra>https://openlibra.com/es/collection/search/category/diseno_3d</openlibra>
+		<libros>
+			<libro>
+				<nombre>Authoring Collaborative Multiplayer Games</nombre>
+				<openlibra>https://openlibra.com/es/book/authoring-collaborative-multiplayer-games</openlibra>
+			</libro>
+      <libro>
+				<nombre>Juego</nombre>
+				<openlibra>https://openlibra.com/es/book/juego</openlibra>
+			</libro>
+      <libro>
+				<nombre>Make Games with Python</nombre>
+				<openlibra>https://openlibra.com/es/book/make-games-with-python</openlibra>
+			</libro>
+		</libros>
+	</categoria>
+</categorias>

@@ -1,0 +1,79 @@
+
+/*
+	Aplicar a todos los elementos
+	la propiedad: 
+		font-family: 'Lato', sans-serif;
+*/
+
+
+
+/*
+	Aplicar al elemento con el id "cabecera"
+	las propiedades
+		background-color: dodgerblue;
+		color: white;
+		text-align: center;
+		padding: 2% 0 2% 0; 	
+*/
+
+
+
+/*
+	Aplicar al elemento header
+	las propiedades
+		margin-left: 3%;
+		margin-right: 3%;
+*/
+
+
+
+/*
+	Aplicar a los elementos con la clase "link"
+	las propiedades
+		text-decoration: none;
+*/
+
+
+
+/*
+	Aplicar a los elementos ul y ol
+	las propiedades
+		list-style: none;
+*/
+
+
+
+/*
+	Aplicar a los elementos li que se encuentran dentro del ul#navbar
+	las propiedades
+		width: 25%;
+		float: left;
+		text-align: center;
+*/
+
+
+
+/*
+	Aplicar al elemento ul que es hijo directo de la etiqueta nav
+	las propiedades
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+*/
+
+
+
+/*
+	Aplicar al p que es hermano de una etiqueta h2
+	la propiedad
+		text-align: justify;
+*/
+
+
+
+/*
+	Aplicar a la etiqueta iframe con el atributo allowfullscreen
+	la propiedad
+		width: 100%;
+*/
+

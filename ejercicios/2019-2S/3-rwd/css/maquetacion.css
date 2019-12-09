@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+ul {
+    display: flex;
+}
+
+div#container1 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 10%;
+}
+
+div#container2 {
+    display: grid;
+    grid-template-columns: 50%  50%;
+    grid-column-gap: 2%
+}
+
+body section {
+    display: flex;
+    flex-direction: column;
+}
+
+body footer {
+    display: flex;
+    flex-direction: column;
+}

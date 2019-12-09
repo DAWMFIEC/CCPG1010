@@ -1,0 +1,25 @@
+/*
+	La imagen tendrá la propiedad float con los valores none, left y right
+*/
+
+img {
+		
+}
+
+
+/*
+	Solución 1: Agregar la propiedad al #limpiador-float
+		clear: both;
+*/
+#limpiador-float {
+	
+}
+
+/*
+	Solución 2: Agregar la propiedad al #contenedor1
+		overflow: hidden;
+*/
+
+#contenedor1 {
+
+}

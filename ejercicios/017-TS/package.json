@@ -1,8 +1,0 @@
-{
-  "name": "typescript",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {
-    "popper.js": "^1.14.7"
-  }
-}

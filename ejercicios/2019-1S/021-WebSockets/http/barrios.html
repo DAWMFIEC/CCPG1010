@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Vecinos">
+    <meta name="author" content="None">
+    <link rel="icon" href="ico/people.png">
+    <title>Vecinos</title>
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info shadow-sm fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><i id="icon-users" class="fas fa-users"></i>Vecinos</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vecinos.html">Vecinos<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="barrios.html">Barrios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clasificados.html">Clasificados</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main role="main">
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading text-new">Vecinos</h1>
+                <p id="descripcion" class="bg-t80 lead text-new px-2 py-2">Vecinos te permite conocer mejor a tus vecinos, a
+                    planear reuniones, administrar las decisiones de
+                    las directivas, a conocer las necesidades de tu
+                    barrio o sector, a conocer los números de emergencias
+                    y mucho más. Somos para estar más unidos.</p>
+            </div>
+        </section>
+        <section class="album py-4 bg-light">
+            <div class="container">
+                <div class="row pb-3 px-3">
+                    <h2>Barrios</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm border-top-0 border-right-0 border-bottom-0 border-info">
+                            <img class="card-img-top" data-src="" src="https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2012/08/20/gg05ub200812-photo05_456_336.jpg?itok=_8KVte9u" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sauces 8</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm border-top-0 border-right-0 border-bottom-0 border-info">
+                            <img class="card-img-top" data-src="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk4Tamkp0PUxMIx__y1CR2dSOxeIEx_zmQcXv_sDu5hRe7OdPp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">La Saiba</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm border-top-0 border-right-0 border-bottom-0 border-info">
+                            <img class="card-img-top" data-src="" src="https://www.eltiempo.com.ec/media/k2/items/cache/00839d0099d754a6fb274d35626acdd1_M.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Primavera 2</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="steps" class="album py-4 bg-light">
+            <div class="container">
+                <div id="mapid" class="row pb-3 px-3">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-2 text-center bg-light">
+        COPYRIGHT © 2019. ALL RIGHTS RESERVED TO VECINOS.
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+    <script src="js/map.js"></script>
+</body>
+
+</html>

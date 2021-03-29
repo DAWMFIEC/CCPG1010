@@ -204,7 +204,7 @@ pycrypto==2.6.1
 pycurl==7.43.0.2
 PyDispatcher==2.0.5
 pyflakes==2.0.0
-Pygments==2.3.1
+Pygments==2.7.4
 PyHamcrest==1.9.0
 pylint==2.2.2
 pymongo==3.4.0
